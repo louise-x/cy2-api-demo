@@ -11,6 +11,7 @@ module.exports = defineConfig({
       on('task', generateUUID);
       on('task', generateRandomString);
     },
+    projectId: 'sorry-cypress',
     video: false
   },
 });
